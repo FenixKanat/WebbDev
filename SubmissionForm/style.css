@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: rgb(96, 8, 143);
+    background-color: rgb(250, 151, 235); 
+}
+  
+h1 {
+    text-align: center;
+}
+  
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+  
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+  
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+  
+textarea {
+    resize: vertical;
+}
+  
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+}
+  
+label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+  
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #45a049;
+}
+  
+.error {
+    color: red;
+    font-style: italic;
+    margin-top: 5px;
+}
+  
+.success {
+    color: green;
+    font-weight: bold;
+    margin-top: 5px;
+}
+  
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea,
+select {
+    width: 80%; /* Adjust the width as needed */
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+  
+fieldset:nth-of-type(1) {
+    background-color: rgb(215, 11, 234);
+}
+  
+fieldset:nth-of-type(2) {
+    background-color: rgb(14, 233, 167);
+}
+  
+fieldset:nth-of-type(3) {
+    background-color: rgb(222, 123, 244);
+}
+  
+fieldset:nth-of-type(4) {
+    background-color: rgb(157, 242, 215);
+}
+  
+fieldset:nth-of-type(5) {
+    background-color: rgb(197, 133, 229);
+}
+  
+fieldset:nth-of-type(6) {
+    background-color: rgb(52, 249, 239);
+}
+  
+fieldset:nth-of-type(7) {
+    background-color: rgb(218, 148, 232);
+}
+  
+fieldset:nth-of-type(8) {
+    background-color: rgb(135, 255, 229);
+}
+  
+fieldset:nth-of-type(9) {
+    background-color: rgb(209, 83, 255);
+}
+  
+legend {
+    font-weight: bold;
+}
+  

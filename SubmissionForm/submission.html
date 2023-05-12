@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="style.css">
+      <title>Kontaktuppgifter</title>
+   </head>
+   <body>
+      <h1>Kontaktuppgifter</h1>
+      <form id="contact-form" action="http://webshare.mah.se/tszagh/response.php" method="get">
+         <fieldset>
+            <legend>Namn:</legend>
+            <input type="text" id="name" name="name" required>
+         </fieldset>
+         <br>
+         <fieldset>
+            <legend>Ålder:</legend>
+            <input type="number" id="age" name="age" required>
+         </fieldset>
+         <br>
+         <fieldset>
+            <legend>Hur ofta besöker du blomstermålabladet?</legend>
+            <br>
+            <input type="radio" id="daily" name="frequency" value="Varje dag" required>
+            <label for="daily">Varje dag</label>
+            <br>
+            <input type="radio" id="every-other-day" name="frequency" value="Varannan dag" required>
+            <label for="every-other-day">Varannan dag</label>
+            <br>
+            <input type="radio" id="weekly" name="frequency" value="Varje vecka" required>
+            <label for="weekly">Varje vecka</label>
+         </fieldset>
+         <br>
+         <fieldset>
+            <legend>Vilka delar av blomstermålabladet brukar du besöka?</legend>
+            <br>
+            <input type="checkbox" id="news" name="sections" value="Nyheter">
+            <label for="news">Nyheter</label>
+            <br>
+            <input type="checkbox" id="international" name="sections" value="Utrikes">
+            <label for="international">Utrikes</label>
+            <br>
+            <input type="checkbox" id="domestic" name="sections" value="Inrikes">
+            <label for="domestic">Inrikes</label>
+            <br>
+            <input type="checkbox" id="sports" name="sections" value="Sport">
+            <label for="sports">Sport</label>
+            <br>
+            <input type="checkbox" id="gossip" name="sections" value="Skvaller">
+            <label for="gossip">Skvaller</label>
+            <br>
+            <input type="checkbox" id="weather" name="sections" value="Väder">
+            <label for="weather">Väder</label>
+            <br>
+            <input type="checkbox" id="other" name="sections" value="Övrigt">
+            <label for="other">Övrigt</label>
+         </fieldset>
+         <br>
+         <fieldset>
+            <legend>Bästa med blomstermålabladet:</legend>
+            <br>
+            <textarea      id="best" name="best" rows="4" cols="50" required></textarea>
+         </fieldset>
+         <br>
+         <fieldset>
+            <legend>Sämsta med blomstermålabladet:</legend>
+            <br>
+            <textarea id="worst" name="worst" rows="4" cols="50" required></textarea>
+         </fieldset>
+         <br>
+         <fieldset>
+            <legend>Epost:</legend>
+            <input type="email" id="email" name="email" required>
+         </fieldset>
+         <br>
+         <fieldset>
+            <legend>Storlek:</legend>
+            <select id="size" name="size">
+               <option value="XS">XS</option>
+               <option value="S">S</option>
+               <option value="M">M</option>
+               <option value="L">L</option>
+               <option value="XL">XL</option>
+            </select>
+         </fieldset>
+         <br>
+         <fieldset>
+            <legend>Skicka formuläret:</legend>
+            <input type="submit" value="Skicka">
+            <input type="reset" value="Återställ">
+         </fieldset>
+      </form>
+      <script>
+         document.getElementById("contact-form").addEventListener("submit", function(event) {
+           event.preventDefault(); // Förhindra att formuläret skickas som en vanlig HTML-postförfrågan
+           this.submit();
+         });
+      </script>
+   </body>
+</html>
