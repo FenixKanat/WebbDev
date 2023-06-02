@@ -1,0 +1,154 @@
+/* Set the font family, background color, margin, and padding for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the start container */
+.containerStart {
+  background-color: #e0dcdc;
+  padding: 20px;
+  margin: 20px;
+  justify-content: space-between;
+  display: flex;
+}
+
+/* Styling for the general container */
+.container {
+  background-color: #e0dcdc;
+  padding: 20px;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+/* Styling for the about container */
+.about-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+/* Styling for the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-top: 20px; 
+  border-top: 1px solid #000;
+}
+
+/* Styling for the footer container */
+.footer-container {
+  text-align: center;
+  margin-top: 0px;
+  padding: 5px;
+}
+
+/* Styling for the login container */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for the login container heading */
+.login-container h3 {
+  margin-bottom: 10px;
+}
+
+/* Styling for the login container form */
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Styling for the login container labels */
+.login-container label {
+  margin-bottom: 5px;
+}
+
+/* Styling for the login container input fields */
+.login-container input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the login container submit button */
+.login-container input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/* Styling for the hover effect on login container submit button */
+.login-container input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Styling for the author container */
+.author-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+/* Styling for the author container title */
+.author-container .title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Styling for the navigation bar unordered list */
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the navigation bar list items */
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Styling for the navigation bar links */
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styling for the author images */
+.author-image {
+  width: 200px;
+  height: 200px;
+}
+
+/* Styling for the question container */
+.question-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  display: block;
+}
+
+/* Styling for the question container heading and paragraphs */
+.question-container h2,
+.question-container p {
+  margin: 10px 0;
+}

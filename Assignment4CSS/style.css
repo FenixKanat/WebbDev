@@ -137,10 +137,6 @@ ul {
     margin-left: 20px;
 }
   
-p:has(ul) {
-    padding-left: 20px;
-}
-  
 ul li:before {
     content: "•";
     display: inline-block;
